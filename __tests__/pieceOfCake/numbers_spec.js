@@ -4,7 +4,7 @@ describe('for numbers', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = 0.75;
     // --end->
 
     expect(dividingResult).toEqual(expected);
@@ -15,7 +15,10 @@ describe('for numbers', () => {
 
     // <--start
     // Please write an expression determine if `notNumber` is NaN.
-    const isNan = undefined;
+
+    // TODO other ways to avoid 'eslint-disable-next-line no-restricted-globals'?
+    // eslint-disable-next-line no-restricted-globals
+    const isNan = isNaN(notNumber);
     // --end->
 
     expect(isNan).toBeTruthy();
