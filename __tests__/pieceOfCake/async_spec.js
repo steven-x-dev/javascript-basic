@@ -95,7 +95,7 @@ describe('for asynchronous', () => {
       .then(() => {
         // <--start
         // Please write down the correct value. You should write the final result directly.
-        const expected = 'Caught! >_<';
+        const expected = ['Caught! >_<'];
         // --end->
 
         expect(logs).toEqual(expected);
